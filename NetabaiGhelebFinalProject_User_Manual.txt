@@ -1,0 +1,23 @@
+USER MANUAL for NetabaiGhelebFinalProject.py ver. 1.0.0
+Original program written by Gheleb S. Netabai
+Dungeons & Dragons 5E license owned by Wizards of the Coast
+
+Upon launching the program, the user will be prompted with several input field for their D&D character's information.
+These fields include Character Name, Race, Class, Background, Feats/Abilities, and Character Notes.
+The program's version number information can also be found in the bottom-left hand corner of the window.
+The Alignment field is unique in that it is a dropdown menu. Users may click on this to choose one alignment from a selection of 9 available options.
+By default, the alignment field is set to "Lawful Good".
+Finally, the user may hit the "Generate Stats" button located in the lower left-hand corner to transition to the next screen.
+Note: Don't worry, you will be able to come back if you need to adjust any information later.
+
+
+Clicking the "Generate Stats" button will bring up the Stat Generation window.
+On this screen, the user can manually adjust their character stats using the scrollbars accompanying each option.
+Stat totals and modifiers will update in real-time as stats are adjusted.
+The user may also click the "Randomly Roll Stats" button to randomly roll their character stats. The program will simulate the process of rolling 5d6, dropping the lowest number, and summing the rolls together to calculate each individual stat.
+As mentioned before, a "Back" button is present that will return you to the previous screen if clicked.
+NOTE: Clicking this button will reset the Stat Generation window to its default state upon returning.
+
+Clicking the "Import Profile Picture/Logo" button will open a file browser prompt. From there, the user can upload any standard image file (.pdf/.jpg) they wish to add to their character sheet. A preview of the image will display in 300x300 format.
+Clicking the "Export Character Sheet" button will generate and open a PDF file of the finalized character sheet information in the user's browser (if applicable).
+NOTE: Any fields left blank on the start screen will be reflected as such in the pdf sheet. The exception to these are the Feats/Abilities, Character Notes, and image fields; which will not display at all when left empty.
